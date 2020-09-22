@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-import Burger from "../burger";
-import classes from './BurgerIngredient.css';
+import classes from './BurgerIngredient.module.css';
 import PropTypes from 'prop-types';
 
 class BurgerIngredient extends Component {
@@ -19,6 +18,9 @@ class BurgerIngredient extends Component {
           <div className={classes.BreadTop}>
             <div className={classes.Seeds1}/>
             <div className={classes.Seeds2}/>
+            <div className={classes.Seeds3}/>
+            <div className={classes.Seeds4}/>
+            <div className={classes.Seeds5}/>
           </div>
         );
         break;
@@ -45,7 +47,7 @@ class BurgerIngredient extends Component {
   }
 }
 BurgerIngredient.propTypes = {
-  Type: PropTypes.string.isRequired
+  type: PropTypes.string.isRequired
 };
 
 
