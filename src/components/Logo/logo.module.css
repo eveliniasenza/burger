@@ -1,0 +1,12 @@
+.logo{
+  background-color:saddlebrown;
+  padding: 4px;
+  height: 80%;
+  width: 90%;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.logo img {
+  height: 80%;
+}

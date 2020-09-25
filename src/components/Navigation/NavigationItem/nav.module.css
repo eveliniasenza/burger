@@ -1,0 +1,28 @@
+.nav{
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  width: 180px;
+
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  height: 100%;
+  padding: 16px 10px;
+  border-bottom: 4px solid transparent;
+  box-sizing: border-box;
+  display: block;
+}
+
+.nav a:hover,
+.nav a:active,
+.nav a.active{
+  background-color: saddlebrown;
+  border-bottom: 4px solid skyblue;
+  color: white;
+
+}
